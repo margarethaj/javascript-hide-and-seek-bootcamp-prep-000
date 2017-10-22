@@ -11,3 +11,7 @@ function deepestChild(){
   console.log(doc[doc.length-1].innerHTML); //inside the div
   return (doc[doc.length-1]); //include the div
 }
+
+function increaseRankBy(n){
+  
+}
