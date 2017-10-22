@@ -12,5 +12,5 @@ function deepestChild(){
     doc[i].innerHTML = (i+1).toString();
   }*/
   console.log(doc[doc.length-1].innerHTML);
-  return (doc[doc.length-1].innerHTML);
+  return (doc[doc.length-1]);
 }
